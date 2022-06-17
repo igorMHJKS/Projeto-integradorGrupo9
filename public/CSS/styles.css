@@ -1,0 +1,181 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+html{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.opcoes{
+    border: solid 2px ;
+    background-color: white;
+    width:55%;
+    height: 7%;
+    display: flex;
+    align-items: center;
+    position: absolute;
+   left: 20%;
+}
+h1{
+    color: black;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    font-size: 20px;
+    right: 30%;
+    left: 2%;
+   
+}
+h1:hover{
+    color: #808080;
+    cursor: pointer;
+}
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    padding-right:60%;
+}.logo img{
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+    width: 60%;
+  }
+  .filtro{ 
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+  }
+  .filtro img{  
+      width: 1.9%;
+    position: absolute;
+     display: flex;
+     align-items: center;
+     left: 67%;
+     z-index: 11;
+  }
+  h3 a{
+      border: solid 1px white;
+      color: #000;
+      background-color: white;
+      position: absolute;
+     display: flex;
+     align-items: center;
+     left: 65%;
+     top:5%;
+     width: 5%;
+     height: 5%;
+     padding: 0 4%;
+     list-style: none;
+     text-decoration: none;
+  }
+  h3 a:hover{
+      color: #808080;
+      cursor: pointer;
+  }
+header{
+    background-color: black;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    height: 15%;
+}
+
+
+nav ul{
+    display: flex;
+    align-items: center;
+    padding-top: 1%
+}
+
+nav li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding-right: 70px;
+    
+}
+
+nav li a{
+    display: flex;
+    align-items: center;
+    cursor:pointer;
+    text-decoration: none;
+    color: white;
+    
+}
+nav li a:hover{
+    color: gray;
+    cursor:pointer;
+
+}
+.Logo{
+    display: flex;
+}
+h2{
+    box-shadow: 10px 5px 5px black;
+    background-color: #000;
+    color: white;
+    width: 90%;
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    
+}
+.container2 select{
+   position: absolute;
+   width: 1.2%;
+   height: 2%;
+   top: 45.2%;
+   left: 125px;
+   z-index: 10;
+}
+
+table{
+    border: solid 1px;
+    border: 3px #292929;
+    width: 90%;
+    height: 100%;
+    position: absolute;
+    left: 5%;
+    top: 45%;
+
+}
+thead{
+    background-color: #000;
+    color: white;
+}
+
+td{
+    padding: 2%;
+    background-color: #808080;
+
+}
+
+.inputs form{
+    position: absolute;
+      display: flex;
+      justify-content: space-around;
+      flex-direction: column;
+      padding-left: 8%;
+      top:  56%;
+      z-index: 10;
+    
+}
+.inputs .nd{
+    position: absolute;
+    bottom: 102%;
+}
