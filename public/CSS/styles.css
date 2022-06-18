@@ -152,17 +152,16 @@ table{
     position: absolute;
     left: 5%;
     top: 45%;
-
+    
 }
 thead{
     background-color: #000;
     color: white;
 }
 
-td{
+td {
     padding: 2%;
     background-color: #808080;
-
 }
 
 .inputs form{
@@ -170,12 +169,62 @@ td{
       display: flex;
       justify-content: space-around;
       flex-direction: column;
-      padding-left: 8%;
-      top:  56%;
+      padding-left: 6.5%;
+      top:  55.9%;
       z-index: 10;
     
 }
 .inputs .nd{
     position: absolute;
     bottom: 102%;
+}
+td{
+    color: white;
+}
+td img{
+    width: 159%;
+    
+}
+td h3{
+    border:  1px #808080;
+    
+    font-size:16px ;
+}
+ td a  {
+    display:flex ;
+    justify-content: center;
+    color: white;
+    font-size:20px ;
+}
+td .listar {
+     color: white;
+     
+}
+td .atualizar{
+   
+    color: #000;
+}
+td .deletar{
+    color: white;
+}
+td .visualizar{
+    
+    color: #000;
+    
+}
+td .listar:hover{
+    color: #292929;
+    cursor: pointer;
+}
+ctd .atualizar:hover{
+    color: white;
+    cursor: pointer;
+}
+td .deletar:hover{
+    color: #292929;
+    cursor: pointer;
+}
+td .visualizar:hover{
+    color: white;
+    cursor: pointer;
 }
