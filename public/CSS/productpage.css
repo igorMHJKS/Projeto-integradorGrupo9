@@ -1,0 +1,412 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+
+.container-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+    
+}
+.container-nav a img {
+    width: 40%;
+    height: 40%;
+    margin: 2% 0 0 2%;
+}
+#menu{
+    width: 40%;
+}
+#menu ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+
+}
+#menu  ul li {
+overflow: hidden;
+}
+#menu ul a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+#menu ul a:hover {
+ border-bottom: outset;
+ border-color: chartreuse;
+}
+
+/* ---------------------- cabeçalho */
+
+.container-produto{
+    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: 100%;
+}
+.produto-{
+    width: 25%;
+    height: 100%;
+    padding-right: 2%;
+}
+.produto- img{
+width: 100%;
+height: 100%;
+}
+.descrição{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    
+    justify-content: center;
+    height: 100%;
+    
+
+}
+.tamanhos:hover{
+    background-color: lightgray;
+}
+.container-ref{
+    display: flex;
+    flex-direction: column;
+    
+}
+.container-ref{
+    height: 100%;
+}
+.imgs-ref img{
+    width: 80%;
+    height: 40%;
+     
+}
+.titulo p{
+    width: 60%;
+    padding-top: 1%;
+    text-align: justify;
+}
+
+ .comentario a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+.preço{
+    padding: 1% 0 ;
+}
+.opcoes{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-top: 3%;
+}
+.botoes0{
+    display: flex;
+    justify-content: space-around;
+}
+.tamanhos{
+    width: 15%;
+    height: 20%;
+    border-color: black;
+    border-style:groove;
+    border-width: 1.2px;
+    display: flex;
+    justify-content: center;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.botoes{
+    margin-top: 5%;
+    width: 50%;
+    height: 100%;
+}
+.botoes form{
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    width: 100%;
+    height: 100%;
+}
+.btn-add{
+    width: 70%;
+    height: 25%;
+    margin-right: 3%;
+
+}
+.btn-add input{
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+ 
+.btn-comprar {
+    width: 60%;
+    height: 25%;
+    cursor: pointer;
+}
+.btn-comprar input{
+    background-color: rgb(49, 128, 0);
+    border-radius: 10px;
+    color:white;
+    cursor: pointer;
+    
+}
+.btn-comprar input:hover{
+    background-color: rgba(68, 136, 68, 0.966);
+    border-radius: 10px;
+}
+.botoes input{
+    
+    height:  50px;
+    width: 160px;
+}
+
+.cep{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+width: 100%;
+height: 100%;
+margin-top: 1%;
+
+}
+.btn-cep{
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.btn-cep input{
+    
+    margin-top: 5%;
+    height: 100%;
+    width: 50%;
+}
+.cep a{
+    color: black;
+    margin-top: 1%;
+    margin-left: 1%;
+    font-size: 0.9rem;
+}
+#btn-info{
+    width: 20%;
+    height: 20%;
+    margin: 0 1%;
+    
+}
+#btn-info input{
+    width: 100%;
+    height: 100%;
+    border-radius: 2px;
+    background-color: white;
+}
+#btn-info input:hover{
+ cursor: pointer;
+ background-color: lightgray;
+}
+
+/* produto e descrição */
+.detalhes{
+width: 85%;
+height: 100%;
+margin: 0 7%;
+background: rgba(211, 211, 211, 0.797);
+border-radius: 10px;
+
+}
+
+.detalhes h1{
+display: flex;
+justify-content: center;
+margin: 2% 0;
+}
+.detalhes p {
+    width: 50%;
+
+}
+
+ul  {
+list-style: square;
+margin: 1% 2% ;
+}
+.lista h3 {
+    margin: 0 2%;
+}
+.lista h5{
+ padding-bottom: 1%;
+}
+/* detalhes e descrição do produto  */
+
+footer{
+     background-color: black;
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+   
+    color: white;
+    
+}
+.social-media{
+    width: 20%;
+    margin-top: 2%;
+}
+footer a {
+    text-decoration: none;
+    color: white;
+    margin: 1% 0 ;
+}
+footer h2 {
+    margin: 4% 0 ;
+}
+footer ul li {
+    list-style: none;
+}
+.departamentos {
+    margin-top: 2%;
+    width: 20%;
+}
+.sobre {
+    margin-top: 2%;
+    width: 20%;
+}
+.ajuda {
+    margin-top: 2%;
+    width: 20%;
+}
+.ajuda h2 {
+    margin-left :1%;
+}
+.direitos {
+    margin-top: 2%;
+    color: white;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.social-media a img {
+    width: 10%;
+    height: 10%;
+}
+/* rodape */
+
+
+/* responsividade */
+
+@media only screen and (max-width: 400px) {
+    #menu{
+        width: 100%;
+        
+    }
+    
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow: hidden;
+        width: 100vw;
+    }
+    .produto-{
+        width:95%;
+        height: 30%;
+    }
+    .produto- img {
+        width: 100%;
+        height: 80%;
+    }
+    .container-produto{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: end;
+        width: 100%;
+        margin-left: 4%;
+    }
+    
+    .imgs-ref{
+        display: none;
+    }
+    .descrição{
+        width: 100%;
+    }
+    .titulo p{
+        width: 90%;
+        margin: 0 1%;
+
+    }
+    .botoes0{
+        width: 100%;
+        margin-right: 1%;
+    }
+    .opcoes{
+        width: 50%;
+    }
+    .opcoes strong {
+        width: 100%;
+    }
+    .botoes{
+        width: 100vw;
+    }
+    .botoes form  {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+        
+    }
+    .btn-add, .btn-comprar{
+        width: 100%;
+    }
+    .botoes input {
+        width: 95vw;
+        height: 5vh;
+    }
+    .lista{
+        margin-right: 2%;
+    }
+    .cep{
+        width: 100%;
+    }
+    .cep  a{
+    
+        width: 65vw;
+    }
+    .btn-cep, #btn-info{
+        width: 100%;
+        
+    }
+    .footer {
+        width: 100vw;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+     .social-media,.departamentos, .sobre , .ajuda {
+        width: 50%;
+        margin-top: 5%;
+        
+    }
+    .direitos{
+        margin-top: 2%;
+    }
+    .detalhes{
+        margin-top: 2%;
+        list-style: square;
+    }
+    .lista{
+        margin-left: 1%;
+    }
+}
