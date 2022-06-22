@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOChYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,13 +9,12 @@
 </head>
 <body>
     <header>
-      <div class="opcoes">
-          <h1>Painel administrativo</h1>
-      </div>
-       <div class="logo">
-          <div>
+        <h1> Olá, bem vindo ao painel administrativo</h1>
+        <div id="youcon">
             <img src="./public/CSS/imagens/images.png" alt="">
-          </div>
+        </div>
+       <div class="logo">
+        
           <h3><a href="Filtro">Filtro</a></h3>
           <div class="filtro">
             
@@ -44,6 +43,13 @@
 
     <main>
         <h2>Products </h2>
+
+        <div id="busca">
+            <input type="text" id="txtBusca" placeholder="Pesquisar por palavra-chave">
+            <a href=""><img src="./public/CSS/imagens/buscar.jpg" alt=""></a>
+            
+
+        </div>
         <div class="container2">
             <form action="Id" method="post"></form>
                 <label for="id"></label>
@@ -54,31 +60,77 @@
                   
                 </div>
 
-                </div>
-                  <div class="tabela">
-                    <table border="3">
-                    <thead>
-                        <tr>
-                            <th></th>
-                            <th>ID</th>
-                            <th>Pr</th>
-                            <th>name</th>    
-                            <th> QTD</th>
-                            <th>Price</th> 
-                            <th>Tamanho</th> 
-                            <th> Size</th>
-                         </tr>       
-                    </thead>
-                     <tbody>
-                    
+            </div>
+            <div class="tabela">
+                <table border="3">
+                <thead>
+                    <tr  rowspan="1" >
+                        <th></th>
+                        <th>ID</th>
+                      <th>product</th>
+                      <th>Descrição</th>
+                      <th>Quantidade</th>
+                      <th>Preço</th>
+                      <th>Tamanhp</th>
+                      <th>Size</th>
+                     </tr>       
+                </thead>
+                 <tbody>
+                
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td>10</td>
+                        <td  rowspan="1" width =100><img src="./public/productImagens/moletom 219,90 caramelo.jpg" alt=""></td>
+                        <td width = 140><h3>moletom fleece off-white e caramelo masculino</h3></td>
+                        <td>1000</td>
+                        <td>219,90</td>
+                        <td width="40" >
+                            <nav>
+                                <ul>
+                                    <li></li>
+                                    <li>P</li>
+                                    <li>M</li>
+                                    <li>G</li>
+                                </ul>
+                            </nav>
+                          
+                        </td>
+  
+                        <td width = 199>
+                            <div class="table">
+                                
+                                <nav>
+                                    <ul>
+                                        <li id="list-criar">
+                                            <a class="criar" href="">Create</a>
+                                            <br>
+                                                <a class="atualizar"  href="">Upadate</a>
+                                           
+                                            <br>
+                                            
+                                                <a class="delete" href="">Delete</a>
+                                          
+                                            <br>
+                                            
+                                                <a class="visualizar" href="">Visualizar</a>
+                                            
+                                        </li>
+                                    </ul>
+                                </nav>
+  
+                            </div>
+                        </td>
+                        
+                        </tr>
+  
                         <tr>
                             <td><input type="checkbox"></td>
-                            <td>10</td>
-                            <td  rowspan="1" width =100><img src="./public/productImagens/moletom 219,90 caramelo.jpg" alt=""></td>
-                            <td width = 140><h3>moletom fleece off-white e caramelo</h3></td>
-                            <td>1000</td>
-                            <td>219,90</td>
-                            <td >
+                            <td>11</td>
+                            <td rowspan="1" width = 100><img src="./public/productImagens/jaqueta 239,90.jpg" alt=""></td>
+                            <td><h3>jaqueta oversized em jeans claro masculino</h3></td>
+                            <td>1000 </td>
+                            <td>239.90</td>
+                            <td width = 40>
                                 <nav>
                                     <ul>
                                         <li>P</li>
@@ -87,157 +139,690 @@
                                         <li>GG</li>
                                     </ul>
                                 </nav>
-                            </td>
-
-                            <td width = 100>
-                                <div class="table">
-                                    
-                                    <nav>
-                                        <ul>
-                                            <li> <a class="listar" href="">Listar produto</a></li>
-                                            <li><a class="atualizar" href="">Atualizar produto</a></li>
-                                            <li> <a class="deletar" href="">Deletar produto</a></li>
-                                            <li><a  class="visualizar" href="">Visualizar produto</a>
-                                            </li>
-                                        </ul>
-                                    </nav>
-
-                                </div>
-                            </td>
-                            
+                                <td> 
+                                    <div class="table">
+                                
+  
                             </tr>
-
+                            </tr> 
+  
                             <tr>
-                                <td><input type="checkbox"></td>
-                                <td>11</td>
-                                <td rowspan="1" width = 100><img src="./public/productImagens/jaqueta 239,90.jpg" alt=""></td>
-                                <td><h3>jaqueta oversized em jeans claro</h3></td>
-                                <td>1000</td>
-                                <td>239.90</td>
-                                <td width = 40>
+                                <td><input type="checkbox"></t>
+                                <td>12</td>
+                                <td><img src="./public/productImagens/3.jpg" alt=""></td>
+                                <td><h3>Blusão preto meia gola masculino</h3></td>
+                                <td>1000 </td>
+                                <td>119,90</td>
+                                <td> <nav>
+                                    <ul>
+                                        <li>P</li>
+                                        <li>M</li>
+                                        <li>G</li>
+                                        <li>GG</li>
+                                    </ul>
+                                </nav>
+                            </td>
+                                <td> 
+                                    <div class="table">
+                                
+                               
+                                
+                                </tr>  
+                                <tr>
+                                    <td><input type="checkbox"></td>
+                                    <td>13</td>
+                                    <td><img src="./public/productImagens/4.jpg" alt=""></td>
+                                    <td><h3>Vestido xadrez vermelho</h3></td>
+                                    <td>120 </td>
+                                    <td>179,90</td>
+                                    <td>
                                     <nav>
                                         <ul>
+                                            <li>PP</li>
                                             <li>P</li>
                                             <li>M</li>
                                             <li>G</li>
-                                            <li>GG</li>
+                                            
                                         </ul>
                                     </nav>
-                                    <td></th>   
-                                </tr>
-                                </tr> 
-
-                                <tr>
-                                    <td><input type="checkbox"></t>
-                                    <td>12</td>
-                                    <td>id</td>
-                                    <td>id</td>
-                                    <td>id</td>
-                                    <td>id</td>
-                                    <td>id</td>
-                                    <td></th>   
+                                </td>
+                                    <td>
+                                        <div class="table">
+                                
+                                    </th>   
                                     
                                     </tr>  
                                     <tr>
                                         <td><input type="checkbox"></td>
-                                        <td>13</td>
-                                        <td>id</td>
-                                        <td>id</td>
-                                        <td>id</td>
-                                        <td>id</td>
-                                        <td>id</td>
-                                        <td></th>   
+                                        <td>14</td>
+                                        <td><img src="./public/productImagens/5.jpg" alt=""></td>
+                                        <td><h3>Coturno com plataforma</h3></td>
+                                        <td>1000 </td>
+                                        <td>299,90</td>
+                                        <td>
+                                            <nav>
+                                                <ul>
+                                                    <li>P</li>
+                                                    <li>M</li>
+                                                    <li>G</li>
+                                                    <li>GG</li>
+                                                </ul>
+                                            </nav>
+                                    </td>
+                                        <td>
+                                            <div class="table">
+                                
+                                          
+                                        </td>
                                         
                                         </tr>  
                                         <tr>
                                             <td><input type="checkbox"></td>
-                                            <td>14</td>
-                                            <td>id</td>
-                                            <td>id</td>
-                                            <td>id</td>
-                                            <td>id</td>
-                                            <td>id</td>
-                                            <td></td>
-                                            
+                                            <td>15</td>
+                                            <td><img src="./public/productImagens/6.jpg" alt=""></td>
+                                            <td><h3>Calça mom jeans preta</h3></td>
+                                            <td>60 </td>
+                                            <td>179,90</td>
+                                            <td>
+                                            <nav>
+                                                <ul>
+                                                    <li>34</li>
+                                                    <li>38</li>
+                                                    <li>42</li>
+                                                   
+                                                </ul>
+                                            </nav>
+                                        </td>
+                                            <td>
+                                                <div class="table">
+                                
+                                            </th>   
+                                           
                                             </tr>  
                                             <tr>
                                                 <td><input type="checkbox"></td>
-                                                <td>15</td>
-                                                <td>id</td>
-                                                <td>id</td>
-                                                <td>id</td>
-                                                <td>id</td>
-                                                <td>id</td>
-                                                <td></th>   
-                                               
+                                                <td>16</td>
+                                                <td><img src="./public/productImagens/7.jpg" alt=""></td>
+                                                <td><h3>Moletom preto college</h3></td>
+                                                <td>20</td>
+                                                <td>179,90</td>
+                                                <td>  
+                                                    <nav>
+                                                        <ul>
+                                                            <li>P</li>
+                                                            <li>M</li>
+                                                            <li>G</li>
+                                                            <li>GG</li>
+                                                        </ul>
+                                                    </nav>
+                                            </td>
+                                                <td>  
+                                                    <div class="table">
+                                
+                                                   
+                                                </td>
+                                              
                                                 </tr>  
                                                 <tr>
                                                     <td><input type="checkbox"></td>
-                                                    <td>16</td>
-                                                    <td>id</td>
-                                                    <td>id</td>
-                                                    <td>id</td>
-                                                    <td>id</td>
-                                                    <td>id</td>
-                                                    <td></td>
-                                                  
+                                                    <td>17</td>
+                                                    <td><img src="./public/productImagens/8.jpg" alt=""></td>
+                                                    <td><h3>Jaqueta puffer de nylon</h3></td>
+                                                    <td>100</td>
+                                                    <td>299,90</td>
+                                                    <td> 
+                                                        <nav>
+                                                            <ul>
+                                                                <li>P</li>
+                                                                <li>M</li>
+                                                                <li>G</li>
+                                                                <li>GG</li>
+                                                            </ul>
+                                                        </nav>
+                                                </td>
+                                                    <td> 
+                                                        <div class="table">
+                                
+                                                       
+                                                        </th>   
+                                                   
                                                     </tr>  
                                                     <tr>
                                                         <td><input type="checkbox"></td>
-                                                        <td>17</td>
-                                                        <td>id</td>
-                                                        <td>id</td>
-                                                        <td>id</td>
-                                                        <td>id</td>
-                                                        <td>id</td>
-                                                        <td></th>   
-                                                       
+                                                        <td>18</td>
+                                                        <td><img src="./public/productImagens/9.jpg" alt=""></td>
+                                                        <td><h3>Jaqueta em sarja com bolso cargo</h3></td>
+                                                        <td>500 </td>
+                                                        <td>339,90</td>
+                                                        <td> 
+                                                        <nav>
+                                                            <ul>
+                                                                <li></li>
+                                                                <li></li>
+                                                                <li>P</li>
+                                                                <li>M</li>
+                                                                <li></li>
+                                                                <li></li>
+                                                                
+                                                            </ul>
+                                                        </nav>
+                                                    </td>
+                                                        <td> 
+                                                            <div class="table">
+                                
+                                                        
+                                                            </th>   
                                                         </tr>  
                                                         <tr>
                                                             <td><input type="checkbox"></td>
-                                                            <td>18</td>
-                                                            <td>id</td>
-                                                            <td>id</td>
-                                                            <td>id</td>
-                                                            <td>id</td>
-                                                            <td>id</td>
-                                                            <td></th>   
+                                                            <td>19</td>
+                                                            <td><img src="./public/productImagens/10.jpg" alt=""></td>
+                                                            <td><h3>Blusa croppesd em tricô manga bufante </h3></td>
+                                                            <td>300</td>
+                                                            <td>179,90</td>
+                                                            <td> <nav>
+                                                                <ul>
+                                                                    <li></li>
+                                                                    <li>P</li>
+                                                                    <li>M</li>
+                                                                    <li>G</li>
+                                                                    <li></li>
+                                                                    
+                                                                </ul>
+                                                            </nav></td>
+                                                            <td> 
+                                                                <div class="table">
+                                
+                                                              
+                                                                </th>   
+                                                         
                                                             </tr>  
                                                             <tr>
                                                                 <td><input type="checkbox"></td>
-                                                                <td>19</td>
-                                                                <td>id</td>
-                                                                <td>id</td>
-                                                                <td>id</td>
-                                                                <td>id</td>
-                                                                <td>id</td>
-                                                                <td></th>   
-                                                             
+                                                                <td>20</td>
+                                                                <td><img src="./public/productImagens/11.jpg" alt=""></td>
+                                                                <td><h3>Calça mom em jeans escuro</h3></td>
+                                                                <td>100</td>
+                                                                <td>179,90</td>
+                                                                <td>
+                                                                <nav >
+                                                                    <ul>
+                                                                        <li>34</li>
+                                                                        <li>36</li>
+                                                                        <li>38</li>
+                                                                        <li>40</li>
+                                                                       
+                                                                        
+                                                                    </ul>
+                                                                </nav>
+                                                            </td>
+                                                                <td >
+                                                                    <div class="table">
+                                
+                                                                   
+                                                                    </th>   
+                                                               
                                                                 </tr>  
+                                                                
                                                                 <tr>
                                                                     <td><input type="checkbox"></td>
-                                                                    <td>20</td>
-                                                                    <td>id</td>
-                                                                    <td>id</td>
-                                                                    <td>id</td>
-                                                                    <td>id</td>
-                                                                    <td>id</td>
-                                                                    <td></th>   
+                                                                    <td>21</td>
+                                                                    <td><img src="./public/productImagens/12.jpg" alt=""></td>
+                                                                    <td><h3>Calça jeans reta over de cintura alta</h3> </td>
+                                                                    <td>250</td>
+                                                                    <td>179,90</td>
+                                                                    <td>
+                                                                    <nav >
+                                                                        <ul>
+                                                                            <li>34</li>
+                                                                            <li>36</li>
+                                                                            <li>38</li>
+                                                                            <li>40</li>
+                                                                           
+                                                                            
+                                                                        </ul>
+                                                                    </nav>
+                                                                </td>
+                                                                    <td >
+                                                                        <div class="table">
+                                    
+                                                                        </th>   
                                                                    
                                                                     </tr>  
-                                                                    
-                                                                    
+                                                                
+                                                                    <tr>
+                                                                        <td><input type="checkbox"></td>
+                                                                        <td>22</td>
+                                                                        <td><img src="./public/productImagens/13.jpg" alt=""></td>
+                                                                        <td><h3>Jaqueta com recortes em material sintético</h3></td>
+                                                                        <td>5</td>
+                                                                        <td>319,90</td>
+                                                                        <td>
+                                                                        <nav >
+                                                                            <ul>
+                                                                                <li></li>
+                                                                                <li></li>
+                                                                                <li>5 Ultimas peças tamanho P</li>
+                                                                                <li></li>
+                                                                                
+                                                                               
+                                                                                
+                                                                            </ul>
+                                                                        </nav>
+                                                                    </td>
+                                                                        <td >
+                                                                            <div class="table">
+                                        
+                                                                            </th>   
+                                                                       
                                                                         </tr>  
-                         </tbody>    
-                         
-                  </table>
-                                  
-                   
-        </div>
+                                                                
+                                                                        <tr>
+                                                                            <td><input type="checkbox"></td>
+                                                                            <td>23</td>
+                                                                            <td><img src="./public/productImagens/14.jpg" alt=""></td>
+                                                                            <td><h3>Moletom canguru de pelinhos</h3></td>
+                                                                            <td>100</td>
+                                                                            <td>239,90</td>
+                                                                            <td>
+                                                                            <nav >
+                                                                                <ul>
+                                                                                    <li></li>
+                                                                                    <li>P</li>
+                                                                                    <li>G</li>
+                                                                                    <li>GG</li>
+                                                                                    <li></li>
+                                                                                    
+                                                                                    
+                                                                                </ul>
+                                                                            </nav>
+                                                                        </td>
+                                                                            <td >
+                                                                                <div class="table">
+                                            
+                                                                             
+                                                                                </th>   
+                                                                           
+                                                                            </tr>  
+                                                                
+                                                                            <tr>
+                                                                                <td><input type="checkbox"></td>
+                                                                                <td>24</td>
+                                                                                <td><img src="./public/productImagens/15.jpg" alt=""></td>
+                                                                                <td><h3>Meia vinho</h3></td>
+                                                                                <td>150</td>
+                                                                                <td>19,90</td>
+                                                                                <td>
+                                                                                <nav >
+                                                                                    <ul>
+                                                                                        <li></li>
+                                                                                        <li></li>
+                                                                                        <li>Tamanho unico</li>
+                                                                                        <li></li>
+                                                                                        <li></li>
+                                                                                       
+                                                                                        
+                                                                                    </ul>
+                                                                                </nav>
+                                                                            </td>
+                                                                                <td >
+                                                                                    <div class="table">
+                                                
+                                                                                   
+                                                                                    </th>   
+                                                                               
+                                                                                </tr>  
+                                                                
+                                                                                <tr>
+                                                                                    <td><input type="checkbox"></td>
+                                                                                    <td>25</td>
+                                                                                    <td><img src="./public/productImagens/16.jpg" alt=""></td>                   
+                                                                                    <td><h3>Meia com estampa de gatos</h3></td>
+                                                                                    <td>150</td>
+                                                                                    <td>19,90</td>
+                                                                                    <td>
+                                                                                    <nav >
+                                                                                        <ul>
+                                                                                            <li></li>
+                                                                                            <li></li>
+                                                                                            <li>Tamanho unico</li>
+                                                                                            <li></li>
+                                                                                            <li></li>
+                                                                                           
+                                                                                            
+                                                                                        </ul>
+                                                                                    </nav>
+                                                                                </td>
+                                                                                    <td >
+                                                                                        <div class="table">
+                                                    
+                                                                                        
+                                                                                        </th>   
+                                                                                   
+                                                                                    </tr>  
+                                                                
+                                                                                    <tr>
+                                                                                        <td><input type="checkbox"></td>
+                                                                                        <td>26</td>
+                                                                                        <td><img src="./public/productImagens/17.jpg" alt=""></td>
+                                                                                        <td><h3>Meia preta com pets </h3></td>
+                                                                                        <td>150</td>
+                                                                                        <td>19,90</td>
+                                                                                        <td>
+                                                                                        <nav >
+                                                                                            <ul>
+                                                                                                <li></li>
+                                                                                                <li></li>
+                                                                                                <li>Tamanho unico</li>
+                                                                                                <li></li>
+                                                                                                <li></li>
+                                                                                               
+                                                                                                
+                                                                                            </ul>
+                                                                                        </nav>
+                                                                                    </td>
+                                                                                        <td >
+                                                                                            <div class="table">
+                                                        
+                                                                                        
+                                                                                            </th>   
+                                                                                       
+                                                                                        </tr>  
+                                                                
+                                                                                        <tr>
+                                                                                       <td><input type="checkbox"></td>
+                                                                                            <td>27</td>
+                                                                                            <td><img src="./public/productImagens/18.jpg" alt=""></td>
+                                                                                            <td><h3>Calça reta over cargo preta</h3> </td>
+                                                                                            <td>100</td>
+                                                                                            <td>239,90</td>
+                                                                                            <td>
+                                                                                            <nav >
+                                                                                                <ul>
+                                                                                                    <li>34</li>
+                                                                                                    <li>36</li>
+                                                                                                    <li>38</li>
+                                                                                                    <li>40</li>
+                                                                                                   
+                                                                                                    
+                                                                                                </ul>
+                                                                                            </nav>
+                                                                                        </td>
+                                                                                            <td >
+                                                                                                <div class="table">
+                                                            
+                                                                                              
+  
+                                                                                                    <tr>
+                                                                                                        <td><input type="checkbox"></td>
+                                                                                                        <td>28</td>
+                                                                                                        <td><img src="./public/productImagens/19.jpg" alt=""></td>
+                                                                                                        <td><h3>Blusa básica cropped</h3></td>
+                                                                                                        <td>60</td>
+                                                                                                        <td>69,90</td>
+                                                                                                        <td>
+                                                                                                        <nav >
+                                                                                                            <ul>
+                                                                                                                <li></li>
+                                                                                                                <li>G</li>
+                                                                                                                <li>GG</li>
+                                                                                                                <li></li>
+                                                                                                               
+                                                                                                                
+                                                                                                            </ul>
+                                                                                                        </nav>
+                                                                                                    </td>
+                                                                                                        <td >
+                                                                                                            <div class="table">
+                                                                        
+                                                                                                            
+                                                                                                            </th>   
+                                                                                                       
+                                                                                                        </tr>  
+                                                                
+                                                                                                        
+                                                                                                        <tr>
+                                                                                                            <td><input type="checkbox"></td>
+                                                                                                            <td>29</td>
+                                                                                                            <td><img src="./public/productImagens/20.jpg" alt=""></td>
+                                                                                                            <td><h3>Calça skinny em sarja navalhada</h3></td>
+                                                                                                            <td>50</td>
+                                                                                                            <td>139,90</td>
+                                                                                                            <td>
+                                                                                                            <nav >
+                                                                                                                <ul>
+                                                                                                                    <li></li>
+                                                                                                                    <li>32</li>
+                                                                                                                    <li>34</li>
+                                                                                                                    <li>36</li>
+                                                                                                                    <li></li>
+                                                                                                                   
+                                                                                                                    
+                                                                                                                </ul>
+                                                                                                            </nav>
+                                                                                                        </td>
+                                                                                                            <td >
+                                                                                                                <div class="table">
+                                                                            
+                                                                                                              
+                                                                                                                </th>   
+                                                                                                           
+                                                                                                            </tr>  
+                                                                
+                                                                                                            
+                                                                                                            <tr>
+                                                                                                                <td><input type="checkbox"></td>
+                                                                                                                <td>30</td>
+                                                                                                                <td><img src="./public/productImagens/21.jpg" alt=""> </td>
+                                                                                                                <td><h3>Camiseta alongada com corte em fio </h3></td>
+                                                                                                                <td>500</td>
+                                                                                                                <td>99,90</td>
+                                                                                                                <td>
+                                                                                                                <nav >
+                                                                                                                    <ul>
+                                                                                                                        <li>PP</li>
+                                                                                                                        <li>P</li>
+                                                                                                                        <li>M</li>
+                                                                                                                        <li>G</li>
+                                                                                                                        <li>GG</li>
+                                                                                                                    
+                                                                                                                        
+                                                                                                                    </ul>
+                                                                                                                </nav>
+                                                                                                            </td>
+                                                                                                                <td >
+                                                                                                                    <div class="table">
+                                                                                
+                                                                                                                
+                                                                                                                    </th>   
+                                                                                                               
+                                                                                                                </tr>  
+                                                                
+                                                                                                                
+                                                                                                                <tr>
+                                                                                                                    <td><input type="checkbox"></td>
+                                                                                                                    <td>31</td>
+                                                                                                                    <td><img src="./public/productImagens/22.jpg" alt=""></td>
+                                                                                                                    <td><h3>Camiseta básica alongada</h3></td>
+                                                                                                                    <td>50</td>
+                                                                                                                    <td>69,90</td>
+                                                                                                                    <td>
+                                                                                                                    <nav >
+                                                                                                                        <ul>
+                                                                                                                            <li>PP</li>
+                                                                                                                            <li>P</li>
+                                                                                                                            <li>G</li>
+                                                                                                                            <li>GG</li>
+                                                                                                                           
+                                                                                                                            
+                                                                                                                        </ul>
+                                                                                                                    </nav>
+                                                                                                                </td>
+                                                                                                                    <td >
+                                                                                                                        <div class="table">
+                                                                                    
+                                                                                                                        
+                                                                                                                        </th>   
+                                                                                                                   
+                                                                                                                    </tr>  
+                                                                
+                                                                                                                    
+                                                                                                                    <tr>
+                                                                                                                        <td><input type="checkbox"></td>
+                                                                                                                        <td>32</td>
+                                                                                                                        <td><img src="./public/productImagens/23.jpg" alt=""></td>
+                                                                                                                        <td><h3>Camiseta Dancing Heads</h3></td>
+                                                                                                                        <td>100</td>
+                                                                                                                        <td>89,90</td>
+                                                                                                                        <td>
+                                                                                                                        <nav >
+                                                                                                                            <ul>
+                                                                                                                                <li>PP</li>
+                                                                                                                                <li>P</li>
+                                                                                                                                <li>M</li>
+                                                                                                                                <li>G</li>
+                                                                                                                                <li>GG</li>
+                                                                                                                               
+                                                                                                                                
+                                                                                                                            </ul>
+                                                                                                                        </nav>
+                                                                                                                    </td>
+                                                                                                                        <td >
+                                                                                                                            <div class="table">
+                                                                                        
+                                                                                                                            </th>   
+                                                                                                                       
+                                                                                                                        </tr>  
+                                                                
+                                                                                                                        
+                                                                                                                        <tr>
+                                                                                                                            <td><input type="checkbox"></td>
+                                                                                                                            <td>33</td>
+                                                                                                                            <td><img src="./public/productImagens/24.jpg" alt=""></td>
+                                                                                                                            <td><h3>regata cropped em tricô</h3>
+                                                                                                                            <td>200</td>
+                                                                                                                            <td>119,90</td>
+                                                                                                                            <td>
+                                                                                                                            <nav >
+                                                                                                                                <ul>
+                                                                                                                                    <li>PP</li>
+                                                                                                                                    <li>P</li>
+                                                                                                                                    <li>M</li>
+                                                                                                                                    <li>G</li>
+                                                                                                                                   
+                                                                                                                                    
+                                                                                                                                </ul>
+                                                                                                                            </nav>
+                                                                                                                        </td>
+                                                                                                                            <td >
+                                                                                                                                <div class="table">
+                                                                                            
+                                                                                                                                
+                                                                                                                                </th>   
+                                                                                                                           
+                                                                                                                            </tr>  
+                                                                
+                                                                                                                            
+                                                                                                                            <tr>
+                                                                                                                                <td><input type="checkbox"></td>
+                                                                                                                                <td>34</td>
+                                                                                                                                <td><img src="./public/productImagens/25.jpg" alt=""></td>
+                                                                                                                                <td><h3>blusa cropped raglan college califórnia</h3></td>
+                                                                                                                                <td>50</td>
+                                                                                                                                <td>69,90</td>
+                                                                                                                                <td>
+                                                                                                                                <nav >
+                                                                                                                                    <ul>
+                                                                                                                                        <li>PP</li>
+                                                                                                                                        <li>P</li>
+                                                                                                                                        <li>M</li>
+                                                                                                                                        <li>G</li>
+                                                                                                                                        <li>GG</li>
+                                                                                                                                       
+                                                                                                                                        
+                                                                                                                                    </ul>
+                                                                                                                                </nav>
+                                                                                                                            </td>
+                                                                                                                                <td >
+                                                                                                                                    <div class="table">
+                                                                                                
+                                                                                                                                    </th>   
+                                                                                                                               
+                                                                                                                                </tr>  
+                                                                
+                                                                                                                                
+                                                                                                                                <tr>
+                                                                                                                                    <td><input type="checkbox"></td>
+                                                                                                                                    <td>35</td>
+                                                                                                                                    <td><img src="./public/productImagens/26.jpg" alt=""></td>
+                                                                                                                                    <td><h3>Calça Jogger Básica de Moletom</h3></td>
+                                                                                                                                    <td>140</td>
+                                                                                                                                    <td>139,90</td>
+                                                                                                                                    <td>
+                                                                                                                                    <nav >
+                                                                                                                                        <ul>
+                                                                                                                                            <li></li>
+                                                                                                                                            <li>P</li>
+                                                                                                                                            <li>G</li>
+                                                                                                                                            <li></li>
+                                                                                                                                            
+                                                                                                                                           
+                                                                                                                                            
+                                                                                                                                        </ul>
+                                                                                                                                    </nav>
+                                                                                                                                </td>
+                                                                                                                                    <td >
+                                                                                                                                        <div class="table">
+                                                                                                    
+                                                                                                                                        
+                                                                                                                                        </th>   
+                                                                                                                                   
+                                                                                                                                    </tr>  
+                                                                
+                                                                                                                                    
+                                                                                                                                    <tr>
+                                                                                                                                        <td><input type="checkbox"></td>
+                                                                                                                                        <td>36</td>
+                                                                                                                                        <td><img src="./public/productImagens/27.jpg" alt=""></td>
+                                                                                                                                        <td><h3>regata cropped com golinha</h3></td>
+                                                                                                                                        <td>100</td>
+                                                                                                                                        <td>79,90</td>
+                                                                                                                                        <td>
+                                                                                                                                        <nav >
+                                                                                                                                            <ul>
+                                                                                                                                                <li>PP</li>
+                                                                                                                                                <li>P</li>
+                                                                                                                                                <li>M</li>
+                                                                                                                                                <li>G</li>
+                                                                                                                                               
+                                                                                                                                                
+                                                                                                                                            </ul>
+                                                                                                                                        </nav>
+                                                                                                                                    </td>
+                                                                                                                                        <td >
+                                                                                                                                            <div class="table">
+                                                                                                        
+                                                                                                                                            </th>   
+                                                                                                                                       
+                                                                                                                                        </tr>  
+                                                                                                                                        
+                                                                                                </th>   
+                                                                                           
+                                                                                            </tr>  
+                                                                                            
+                                                                
+                                                                    </tr>  
+                     </tbody>    
+                     
+              </table>
+                              
+               
+    </div>
+                
     </main>
 
     <footer>
-
+        
     </footer>
 </body>
 </html>

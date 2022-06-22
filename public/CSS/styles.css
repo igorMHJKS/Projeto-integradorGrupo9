@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    width: 100%;
    
 }
 html{
@@ -14,25 +15,20 @@ body{
     flex-direction: column;
     justify-content: space-between;
 }
-.opcoes{
-    border: solid 2px ;
-    background-color: white;
-    width:55%;
-    height: 7%;
-    display: flex;
-    align-items: center;
-    position: absolute;
-   left: 20%;
-}
+
 h1{
-    color: black;
+    width: 60%;
+    height: 7%;
+    border: solid black 2px;
+    background-color: white;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
     position: absolute;
-    font-size: 20px;
-    right: 30%;
-    left: 2%;
-   
+    padding: 1.3%;
+    right: 25%;
+    font-size: 25px;
 }
 h1:hover{
     color: #808080;
@@ -54,31 +50,38 @@ h1:hover{
       align-items: center;
   }
   .filtro img{  
-      width: 1.9%;
+      width: 2%;
+      
     position: absolute;
      display: flex;
+     flex-direction: column;
      align-items: center;
-     left: 67%;
+     justify-content: center;
+     
+     left: 65%;
      z-index: 11;
   }
   h3 a{
-      border: solid 1px white;
-      color: #000;
-      background-color: white;
-      position: absolute;
-     display: flex;
-     align-items: center;
-     left: 65%;
-     top:5%;
-     width: 5%;
-     height: 5%;
-     padding: 0 4%;
-     list-style: none;
-     text-decoration: none;
+    border: solid 1px white;
+    color: #000;
+    background-color: white;
+    position: absolute;
+   display: flex;
+   align-items: center;
+   left: 65%;
+   top:6%;
+   width: 7%;
+   height: 3%;
+   padding: 0 4%;
+   list-style: none;
+   text-decoration: none;
   }
   h3 a:hover{
       color: #808080;
       cursor: pointer;
+  }
+  .container{
+      width: 100%;
   }
 header{
     background-color: black;
@@ -88,19 +91,23 @@ header{
     height: 15%;
 }
 
-
+.container{
+    width: 100%;
+}
 nav ul{
     display: flex;
     align-items: center;
-    padding-top: 1%
+    padding-top: 1%;
+    
+    
 }
 
-nav li{
+.container nav li{
     list-style: none;
     display: flex;
     align-items: center;
-    padding-right: 70px;
-    
+    padding-right:30%;
+  
 }
 
 nav li a{
@@ -109,15 +116,51 @@ nav li a{
     cursor:pointer;
     text-decoration: none;
     color: white;
+
     
 }
 nav li a:hover{
     color: gray;
     cursor:pointer;
+    
 
+}
+#youcon{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 3%;
+    margin-bottom: 0.3%;
+    
 }
 .Logo{
     display: flex;
+}
+#busca{
+    
+    width: 30%;
+    height: 5%;
+    position: absolute;
+    top: 35%;
+    left: 5%;
+}
+#busca img{
+    width: 5%;
+    display: flex;
+   position:absolute;
+   left: 95%;
+   top:15%
+}
+#busca input{
+   border-radius: 15px;
+    width: 100%;
+    height: 90%;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    padding: 10px;
 }
 h2{
     box-shadow: 10px 5px 5px black;
@@ -140,49 +183,44 @@ h2{
    width: 1.2%;
    height: 2%;
    top: 45.2%;
-   left: 125px;
+   left: 260px;
    z-index: 10;
 }
-
-table{
-    border: solid 1px;
-    border: 3px #292929;
+.tabela{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 90%;
-    height: 100%;
-    position: absolute;
-    left: 5%;
-    top: 45%;
-    
+   padding-top: 300px;
+   padding-left: 250px;
+ 
+
+ }
+table{
+    text-align: center;
 }
-thead{
+ thead {
     background-color: #000;
-    color: white;
-}
+    color: white;   
+    
+    margin: 10px;
+    
+ }
+tr th{
+    height:50px;
+   padding: 10px;
+    padding-right:175px ;
+    
+ }
 
 td {
     padding: 2%;
     background-color: #808080;
-}
-
-.inputs form{
-    position: absolute;
-      display: flex;
-      justify-content: space-around;
-      flex-direction: column;
-      padding-left: 6.5%;
-      top:  55.9%;
-      z-index: 10;
     
 }
-.inputs .nd{
-    position: absolute;
-    bottom: 102%;
-}
-td{
-    color: white;
-}
 td img{
-    width: 159%;
+    width: 80%;
     
 }
 td h3{
@@ -195,36 +233,37 @@ td h3{
     justify-content: center;
     color: white;
     font-size:20px ;
+    width: 90%;
 }
-td .listar {
-     color: white;
-     
+
+ul li{
+    list-style: none;
+    text-align: none;
+ 
 }
-td .atualizar{
-   
-    color: #000;
+table nav ul{
+    display: flex;
 }
-td .deletar{
-    color: white;
-}
-td .visualizar{
+#list-criar  a{
+    color:#000;
+    padding-bottom: 20px;
+    border: solid 2px black;
+    border-radius: 15px ;
+    text-align: center;
     
-    color: #000;
-    
 }
-td .listar:hover{
-    color: #292929;
-    cursor: pointer;
+#list-criar a:hover{
+ color: #808080;
 }
-ctd .atualizar:hover{
-    color: white;
-    cursor: pointer;
+.criar{
+    background-color: 	#FFD700;
 }
-td .deletar:hover{
-    color: #292929;
-    cursor: pointer;
+.atualizar{
+   background-color:	#00FF00;
 }
-td .visualizar:hover{
-    color: white;
-    cursor: pointer;
+.delete{
+   background-color: red;
+}
+.visualizar{
+    background-color: 	#1E90FF;
 }
