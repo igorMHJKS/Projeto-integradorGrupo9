@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 16px;
+}
+
+header .logo-marca{
+    width: 5%;
+    padding-right: 10px;
+    
+}
+
+.header {
+    overflow: hidden;
+    background-color: black;
+    padding: 20px 10px;
+  }
+  
+  
+  .header a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    text-decoration: none;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  
+
+  .header a.logo {
+    font-weight: bold;
+  }
+  
+
+  .header a:hover {
+    background-color:white;
+    color: black
+    
+  }
+  
+
+  .header a.active {
+    background-color: dodgerblue;
+    color: white
+  }
+  
+
+  .header-right {
+    float: right;
+  }
+
+.user{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 30%;
+  padding: 10px;
+}
+   .user div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+   
+   }
+      
+  
+h1{
+   text-align: center;
+   margin-top:40px;
+}
+h3{
+  font-size: 1.5rem;
+}
+ul li{
+  text-decoration: none;
+  list-style: none;
+  font-size: 20px;
+  font-weight: 700;
+}
+ul li:hover{
+  color: aqua;
+  background-color: blueviolet;
+  cursor: pointer;
+}
+nav{
+  border: solid 3px black;
+  background-color: black;
+  color: white;
+  margin: 40px;
+  padding-bottom: 20px;
+  width: 20%;
+  text-align: center;
+}

@@ -2,268 +2,299 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    width: 100%;
+    
    
 }
+
 html{
     font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
 }
-body{
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+img{
+    width:100%
 }
 
-h1{
-    width: 60%;
-    height: 7%;
-    border: solid black 2px;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    position: absolute;
-    padding: 1.3%;
-    right: 25%;
-    font-size: 25px;
+main {
+    padding: 0 20px;
+  }
+
+ h1{
+  margin-top: 30px;
+ text-align: center;
 }
-h1:hover{
-    color: #808080;
+   h2{
+    padding: 50px;
+   }
+
+
+h1:hover{ 
     cursor: pointer;
-}
-.logo{
-    display: flex;
-    justify-content: flex-start;
-    padding-right:60%;
-}.logo img{
-    display: flex;
-    justify-content: flex-start;
-    align-items:center;
-    width: 60%;
-  }
-  .filtro{ 
-      display: flex;
-      justify-content: flex-end;
-      align-items: center;
-  }
-  .filtro img{  
-      width: 2%;
-      
-    position: absolute;
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     justify-content: center;
-     
-     left: 65%;
-     z-index: 11;
-  }
-  h3 a{
-    border: solid 1px white;
-    color: #000;
-    background-color: white;
-    position: absolute;
-   display: flex;
-   align-items: center;
-   left: 65%;
-   top:6%;
-   width: 7%;
-   height: 3%;
-   padding: 0 4%;
-   list-style: none;
-   text-decoration: none;
-  }
-  h3 a:hover{
-      color: #808080;
-      cursor: pointer;
-  }
-  .container{
-      width: 100%;
-  }
-header{
-    background-color: black;
-    display: flex;
-    justify-content:flex-end;
-    align-items: center;
-    height: 15%;
+    color:dodgerblue;;
+
 }
 
-.container{
-    width: 100%;
-}
-nav ul{
-    display: flex;
-    align-items: center;
-    padding-top: 1%;
-    
-    
-}
-
-.container nav li{
-    list-style: none;
-    display: flex;
-    align-items: center;
-    padding-right:30%;
-  
-}
-
-nav li a{
-    display: flex;
-    align-items: center;
-    cursor:pointer;
+a{
+    color: white;
     text-decoration: none;
-    color: white;
-
-    
+    transition: 0.3s;
 }
-nav li a:hover{
-    color: gray;
-    cursor:pointer;
-    
-
+a:hover{
+    opacity: 0.7;
 }
-#youcon{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    padding: 3%;
-    margin-bottom: 0.3%;
-    
-}
-.Logo{
-    display: flex;
-}
-#busca{
-    
-    width: 30%;
-    height: 5%;
-    position: absolute;
-    top: 35%;
-    left: 5%;
-}
-#busca img{
+header .logo-marca{
     width: 5%;
-    display: flex;
-   position:absolute;
-   left: 95%;
-   top:15%
+    padding-right: 10px;
+    
 }
-#busca input{
-   border-radius: 15px;
+/* Style the header with a grey background and some padding */
+.header {
+    overflow: hidden;
+    background-color: black;
+    padding: 20px 10px;
+  }
+  
+  /* Style the header links */
+  .header a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    text-decoration: none;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  
+
+  .header a.logo {
+    font-weight: bold;
+  }
+  
+
+  .header a:hover {
+    background-color:white;
+    color: black
+    
+  }
+  
+
+  .header a.active {
+    background-color: dodgerblue;
+    color: white
+  }
+  
+
+  .header-right {
+    float: right;
+  }
+
+  td input{
     width: 100%;
-    height: 90%;
-    position: absolute;
-    top: 10%;
-    left: 5%;
+  }
+  #busca{
+    overflow: hidden;
+    padding-left: 3%;
+    margin-top: 40px;
+    width: 100%;
+  }
+
+  #busca img {
+      width: 1%;
+      position: absolute;
+      left: 16%;
+      top: 33.3%;
+
+  }
+  
+  #busca input{
+      width: 15%;
+      height: 4%;
+     border-radius: 15px;
+     margin: auto;
+     
+  }
+  
+  .tabela{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 90%;
+     padding-top: 20px;
+     padding-left: 70px;
+     
+   
+  
+   }
+  .table-rom{
+      overflow-x: auto;
+    }
+  .table-rom{
+      text-align: center;
+  }
+   thead {
+      background-color: #000;
+      color: white;   
+      margin: 10px;
+      
+   }
+  tr th{
+      height:50px;
+     padding: 10px;
+      padding-right:175px ;
+      
+   }
+  
+  td {
+      padding: 2%;
+      background-color: #808080;
+      
+  }
+  td img{
+      width: 80%;
+      
+  }
+  td h3{
+      border:  1px #808080;
+  }
+   td a  {
+      display:flex ;
+      justify-content: center;
+      color: white;
+      width: 90%;
+  }
+  
+  ul li{
+      list-style: none;
+      text-align: none;
+   
+  }
+  table nav ul{
+      display: flex;
+  }
+  #list-criar{
+      
+      display: flex;
+      padding-right: 10px;
+     
+  }
+  #list-criar  a{
+     padding: 25px;
+     padding-left: 10px;
+     margin: 10px;
+     color:white;
+      border: solid 2px black;
+      border-radius: 15px ;
+      text-align: center;    
+  }
+  #list-criar a:hover{
+   color:	#FFFFE0
+  }
+  .criar{
+      
+      background-color:#778899;
+     
+  }
+  .atualizar{
+     background-color:	#00008B
+  }
+  .delete{
+     background-color: 	#DC143C;
+  }
+  
+  .visualizar{
+      background-color: 	#6A5ACD;
+  }
+  #sites{
+      background-color: #000;
+      height: 40%;
+      margin-top: 70px;
+  }
+  
+.logo-marca2{
+    width: 10%;
     padding: 10px;
-}
-h2{
-    box-shadow: 10px 5px 5px black;
-    background-color: #000;
-    color: white;
-    width: 90%;
-    height: 10%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 30px;
-    position: absolute;
-    top: 20%;
-    left: 5%;
-    
-}
-.container2 select{
-   position: absolute;
-   width: 1.2%;
-   height: 2%;
-   top: 45.2%;
-   left: 260px;
-   z-index: 10;
-}
-.tabela{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 90%;
-   padding-top: 300px;
-   padding-left: 250px;
- 
+    margin-top: 4%;
 
- }
-table{
+}
+.logo-facebook{
+    width: 2%;
+    margin-bottom: 4%;
+    margin-left: 75%;
     text-align: center;
 }
- thead {
-    background-color: #000;
-    color: white;   
-    
-    margin: 10px;
-    
- }
-tr th{
-    height:50px;
-   padding: 10px;
-    padding-right:175px ;
-    
- }
+.logo-ins{
+    width: 2%;
+   margin: auto;
+   margin-bottom:100px;
+    margin-left: 85%;
+    text-align: center;
+}
 
-td {
-    padding: 2%;
+
+#endereco{
     background-color: #808080;
+    width: 100%;
+    height: 15%;
+    font-family: Arial, Helvetica, sans-serif;
     
 }
-td img{
-    width: 80%;
+#endereco #end{
     
-}
-td h3{
-    border:  1px #808080;
-    
-    font-size:16px ;
-}
- td a  {
-    display:flex ;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
+    padding-top: 30px;
+    
+}
+#endereco #di{
+    
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.list-site{
     color: white;
-    font-size:20px ;
-    width: 90%;
 }
 
-ul li{
-    list-style: none;
-    text-align: none;
- 
-}
-table nav ul{
-    display: flex;
-}
-#list-criar  a{
-    color:#000;
-    padding-bottom: 20px;
-    border: solid 2px black;
-    border-radius: 15px ;
-    text-align: center;
+
+@media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .header-right {
+      float: none;
+    }
+    .header img{
+        width: 20%;
+        text-align: left;
+        float: none;
+    }
+    .flz img{
+        width: 20%;
+        text-align: left;
+        float: none;
+    }
+  
+    .logo a{
+        display: block;
+        float: none;
+        text-align: right;
+        width:30%;
+    }
+   
     
-}
-#list-criar a:hover{
- color: #808080;
-}
-.criar{
-    background-color: 	#FFD700;
-}
-.atualizar{
-   background-color:	#00FF00;
-}
-.delete{
-   background-color: red;
-}
-.visualizar{
-    background-color: 	#1E90FF;
-}
+  }
+  @media only screen and (min-width: 1200px){
+     .tabela{width: 100%};
+     
+  }
+
+
+
+  
