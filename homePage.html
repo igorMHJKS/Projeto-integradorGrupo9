@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./public/CSS/homePage.css">
 </head>
 <body>
     <header  >
         <div class="container-nav " >
         <div class="a">
-        <a href="#"><img src="./img/images.png" alt=""></a></div>
+        <a href="#"><img src="./public/CSS/imagens/images.png" alt=""></a></div>
         <div class="container-pesquisa">
             <input type="search" name="pesquisa" id="pesquisa-id" placeholder="digite o nome do produto">
         </div>
@@ -47,7 +47,7 @@
      
     </header>
     <div class="banner">
-      <img src="./img/cabide-de-camiseta-preta-em-branco-isolado-no-espaco-em-branco_74952-876.webp"  alt="">
+      <img src="./public/CSS/productImagens/Banner.png"  alt="">
     </div>
     <div class="banner-mobile">
         <img src="./img/cabide-de-camiseta-preta-em-branco-isolado-no-espaco-em-branco_74952-876.webp"  alt="">
@@ -55,9 +55,78 @@
     <main>
         <div class="container-produtos">
             <div class="produto-amostra">
-                <img src="./img/produto1.jpg" alt="">
+                <img src="./public/CSS/productImagens/jaqueta 239,90.jpg" alt="">
              <h4>Camisa manga longa com gola</h4>
-             <strong>R$ 50,00</strong>
+             <strong>R$ 239,00</strong>
+             <select name="cor" id="cor-id">
+                <option value="" selected="azul">Azul</option>
+                <option value="vermelho">vermelho</option>
+                <option value="verde">verde</option>
+                <option value="Vinho">Vinho</option>
+             </select>
+             <select name="tamanhos" id="tamanhos-id">
+                <option value="" selected="M">M</option>
+                <option value="PP">PP</option>
+                <option value="P">P</option>
+                <option value="G">G</option>
+                <option value="GG">GG</option>
+                 </select>
+                <div class="btn-comprar">
+                 <form action="./productpage.html">
+                    <input type="submit" value="comprar">
+                 </form>
+                </div>
+            </div>
+            <div class="produto-amostra">
+                <img src="./public/CSS/productImagens/moletom 219,90 caramelo.jpg" alt="">
+             <h4>Moletom </h4>
+             <strong>R$ 219,90</strong>
+             <select name="cor" id="cor-id">
+                <option value="" selected="azul">Caramelo</option>
+                <option value="vermelho">Cinza</option>
+                <option value="verde">verde</option>
+                <option value="Vinho">Vinho</option>
+             </select>
+             <select name="tamanhos" id="tamanhos-id">
+                <option value="" selected="M">M</option>
+                <option value="PP">PP</option>
+                <option value="P">P</option>
+                <option value="G">G</option>
+                <option value="GG">GG</option>
+                 </select>
+                <div class="btn-comprar">
+                 <form action="">
+                    <input type="submit" value="comprar">
+                 </form>
+                </div>
+            </div>
+            <div class="produto-amostra">
+                <img src="./public/CSS/productImagens/21.jpg" alt="">
+             <h4>Camisa manga curta</h4>
+             <strong>R$ 75,00</strong>
+             <select name="cor" id="cor-id">
+                <option value="" selected="azul">Ciano</option>
+                <option value="vermelho">vermelho</option>
+                <option value="verde">verde</option>
+                <option value="Vinho">Vinho</option>
+             </select>
+             <select name="tamanhos" id="tamanhos-id">
+                <option value="" selected="M">M</option>
+                <option value="PP">PP</option>
+                <option value="P">P</option>
+                <option value="G">G</option>
+                <option value="GG">GG</option>
+                 </select>
+                <div class="btn-comprar">
+                 <form action="">
+                    <input type="submit" value="comprar">
+                 </form>
+                </div>
+            </div>
+            <div class="produto-amostra">
+                <img src="./public/CSS/productImagens/12.jpg" alt="">
+             <h4>Calça jeans </h4>
+             <strong>R$ 150,00</strong>
              <select name="cor" id="cor-id">
                 <option value="" selected="azul">Azul</option>
                 <option value="vermelho">vermelho</option>
@@ -78,93 +147,24 @@
                 </div>
             </div>
             <div class="produto-amostra">
-                <img src="./img/produto1.jpg" alt="">
-             <h4>Camisa manga longa com gola</h4>
-             <strong>R$ 50,00</strong>
+                <img src="./public/CSS/productImagens/8.jpg" alt="">
+             <h4>Jaqueta </h4>
+             <strong>R$ 315,00</strong>
              <select name="cor" id="cor-id">
-                <option value="" selected="azul">Azul</option>
+                <option value="" selected="azul">Verde</option>
                 <option value="vermelho">vermelho</option>
-                <option value="verde">verde</option>
-                <option value="Vinho">Vinho</option>
+                <option value="verde">Azul</option>
+                <option value="Vinho">Roxo</option>
              </select>
              <select name="tamanhos" id="tamanhos-id">
-                <option value="" selected="M">M</option>
+                <option value="" selected="P">P</option>
                 <option value="PP">PP</option>
-                <option value="P">P</option>
+                <option value="M">M</option>
                 <option value="G">G</option>
                 <option value="GG">GG</option>
                  </select>
                 <div class="btn-comprar">
-                 <form action="">
-                    <input type="submit" value="comprar">
-                 </form>
-                </div>
-            </div>
-            <div class="produto-amostra">
-                <img src="./img/produto1.jpg" alt="">
-             <h4>Camisa manga longa com gola</h4>
-             <strong>R$ 50,00</strong>
-             <select name="cor" id="cor-id">
-                <option value="" selected="azul">Azul</option>
-                <option value="vermelho">vermelho</option>
-                <option value="verde">verde</option>
-                <option value="Vinho">Vinho</option>
-             </select>
-             <select name="tamanhos" id="tamanhos-id">
-                <option value="" selected="M">M</option>
-                <option value="PP">PP</option>
-                <option value="P">P</option>
-                <option value="G">G</option>
-                <option value="GG">GG</option>
-                 </select>
-                <div class="btn-comprar">
-                 <form action="">
-                    <input type="submit" value="comprar">
-                 </form>
-                </div>
-            </div>
-            <div class="produto-amostra">
-                <img src="./img/produto1.jpg" alt="">
-             <h4>Camisa manga longa com gola</h4>
-             <strong>R$ 50,00</strong>
-             <select name="cor" id="cor-id">
-                <option value="" selected="azul">Azul</option>
-                <option value="vermelho">vermelho</option>
-                <option value="verde">verde</option>
-                <option value="Vinho">Vinho</option>
-             </select>
-             <select name="tamanhos" id="tamanhos-id">
-                <option value="" selected="M">M</option>
-                <option value="PP">PP</option>
-                <option value="P">P</option>
-                <option value="G">G</option>
-                <option value="GG">GG</option>
-                 </select>
-                <div class="btn-comprar">
-                 <form action="">
-                    <input type="submit" value="comprar">
-                 </form>
-                </div>
-            </div>
-            <div class="produto-amostra">
-                <img src="./img/produto1.jpg" alt="">
-             <h4>Camisa manga longa com gola</h4>
-             <strong>R$ 50,00</strong>
-             <select name="cor" id="cor-id">
-                <option value="" selected="azul">Azul</option>
-                <option value="vermelho">vermelho</option>
-                <option value="verde">verde</option>
-                <option value="Vinho">Vinho</option>
-             </select>
-             <select name="tamanhos" id="tamanhos-id">
-                <option value="" selected="M">M</option>
-                <option value="PP">PP</option>
-                <option value="P">P</option>
-                <option value="G">G</option>
-                <option value="GG">GG</option>
-                 </select>
-                <div class="btn-comprar">
-                 <form action="">
+                 <form action="./productpage.html">
                     <input type="submit" value="comprar">
                  </form>
                 </div>
@@ -176,9 +176,9 @@
         <div class="social-media">
             <ul>
                 <h2>redes sociais</h2>
-                <li><a  href=""><img src="./img/fb.png" alt="">/lojaYoucom</a></li>
-                <li><a  href=""><img src="./img/insta.png" alt="">@lojaYoucom</a></li>
-                <li><a  href=""><img src="./img/twitter.png" alt="">@lojaYoucom</a></li>
+                <li><a  href=""><img src="./public/CSS/imagens/fb.png" alt="">/lojaYoucom</a></li>
+                <li><a  href=""><img src="./public/CSS/imagens/insta.png" alt="">@lojaYoucom</a></li>
+                <li><a  href=""><img src="./public/CSS/imagens/twitter.png " alt="">@lojaYoucom</a></li>
             </ul>
         </div>
         <div class="departamentos">

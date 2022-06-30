@@ -38,10 +38,9 @@ overflow: hidden;
     color: white;
     text-transform: uppercase;
 }
-#menu ul a:hover {
- background-color: rgba(255, 252, 252, 0.238);
- border-radius: 5px;
- transition: 9ms;
+#menu ul li a:hover {
+    color: rgba(245, 245, 245, 0.648);
+    transition: 0.9ms;
 }
 .menu-mobile{
     display: none;
@@ -217,6 +216,7 @@ margin-top: 1%;
     height: 100%;
     border-radius: 2px;
     background-color: white;
+    font-size: 1rem;
 }
 #btn-info input:hover{
  cursor: pointer;
