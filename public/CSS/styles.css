@@ -203,63 +203,212 @@ header .logo-marca{
   .visualizar{
       background-color: 	#6A5ACD;
   }
+  
   #sites{
-      background-color: #000;
-      height: 40%;
-      margin-top: 70px;
+    background-color: #000;
+    height: 40%;
+    margin-top: 70px;
   }
   
-.logo-marca2{
-    width: 10%;
-    padding: 10px;
-    margin-top: 4%;
-
-}
-.logo-facebook{
-    width: 2%;
-    margin-bottom: 4%;
-    margin-left: 75%;
-    text-align: center;
-}
-.logo-ins{
-    width: 2%;
-   margin: auto;
-   margin-bottom:100px;
-    margin-left: 85%;
-    text-align: center;
-}
-
-
-#endereco{
-    background-color: #808080;
-    width: 100%;
-    height: 15%;
-    font-family: Arial, Helvetica, sans-serif;
-    
-}
-#endereco #end{
-    
-    font-weight: 700;
+  .logo-marca2{
+  width: 10%;
+  padding: 10px;
+  margin-top: 4%;
+  
+  }
+  .logo-facebook{
+  width: 2%;
+  margin-bottom: 4%;
+  margin-left: 75%;
+  text-align: center;
+  }
+  .logo-ins{
+  width: 2%;
+  margin: auto;
+  margin-bottom:100px;
+  margin-left: 85%;
+  text-align: center;
+  }
+  
+  
+  #endereco{
+  background-color: #808080;
+  width: 100%;
+  height: 5%;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+  
+  }
+  #endereco #end{
+  
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px
+  
+  }
+  #endereco #di{
+  
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  }
+  
+  .list-sites{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding-top: 30px;
-    
-}
-#endereco #di{
-    
-    font-weight: 700;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-right: 1%;
+    text-align: center;
+    padding:55px;
+  
+  }
+  
+  .list-sites img{
+    width: 3%;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    
-}
-.list-site{
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-right: 20px;
+    padding-top: 20px;
+    text-align: center;
+   
+  
+  }
+  #fc{
+    position: absolute;
+    top: 190%;
+    right:15%;
+  }
+  #it{
+    position: absolute;
+    top: 200%;
+    right: 15%;
+  }
+  #tw{
+    position: absolute;
+    top: 210%;
+    right:15%;
+  }
+  #site-fc{
     color: white;
-}
-
+    position: absolute;
+    top: 193%;
+    right:10%;
+    font-size: 20px;
+  }
+  #site-ins{
+    position: absolute;
+    top: 203%;
+    right: 10%;
+    font-size: 20px;
+    color: white;
+  }
+  .site-tw{
+    position: absolute;
+    top: 213%;
+    right: 10%;
+    font-size: 20px;
+    color: white;
+  }
+  .departamentos{
+    border: solid 2px black;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 20%;
+    position: absolute;
+    top: 193%;
+  
+  }
+  .departamentos a{
+    
+    padding: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+  
+  }
+  .departamentos a:hover{
+    border-radius: 15px;
+    color: aqua;
+    background-color: blueviolet;
+  }
+  
+  .departamentos h3{
+    position: absolute;
+    bottom:110%;
+    color: white;
+    padding: 5px;
+  }
+  .sobre{
+    border: solid 2px black;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 40%;
+    position: absolute;
+    top: 192%;
+  
+  }
+  .sobre a{
+    
+    padding: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+  
+  }
+  .sobre a:hover{
+    border-radius: 15px;
+    color: aqua;
+    background-color: blueviolet;
+  }
+  
+  .sobre h3{
+    position: absolute;
+    bottom:105%;
+    color: white;
+    padding: 5px;
+  }
+  .app{
+    border: solid 2px black;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 55%;
+    position: absolute;
+    top: 191%;
+  
+  }
+  .app h3{
+  position: absolute;
+  bottom: 100%;
+  padding: 5px;
+  color: white;
+  }
+  .app img{
+    width: 50%;
+    padding: 20px;
+  }
 
 @media screen and (max-width: 500px) {
     .header a {

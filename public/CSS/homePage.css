@@ -1,0 +1,408 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    overflow-x: hidden;
+    font-size: 16px;
+}
+html, body {
+    height: 100%;
+}
+header {
+    background-color: black;
+}
+.container-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    width: 100%;
+    height: 12vh;
+    
+}
+
+.container-pesquisa{
+ width: 30%;
+ height: 60%;
+}
+.container-pesquisa input {
+    margin-top: 2%;
+    width: 100%;
+    height: 70%;
+    font-size: 0.8rem;
+}
+.mobile-menu {
+   display: none;
+}
+.container-nav a img {
+    width: 40%;
+    height: 40%;
+    margin: 2% 0 0 4%;
+}
+.menu-mobile{
+    display: none;
+}
+.menu{
+    width: 50%;
+}
+.menu ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+
+}
+.menu  ul li {
+overflow: hidden;
+width: 15%;
+font-size: 1rem;
+}
+.menu ul a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    
+}
+
+.menu ul li a:hover{
+color: rgba(245, 245, 245, 0.648);
+transition: 0.9ms;
+}
+#mobile-menu {
+display: none;
+}
+/* cabeçalho---------------------------------------------  */
+
+/* centro da pagina ---------------------------------------- */
+.banner img{
+width: 75vw;
+height: 50vh;
+margin: 4% 0 4% 12%;
+
+}
+.banner-mobile {
+    display: none;
+}
+
+main {
+    background-color: whitesmoke;
+    height: 80vh;
+    width: 100vw;
+    
+}
+.container-produtos {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 2% 1%;
+    justify-content: space-between;
+}
+.produto-amostra {
+    width: 20%;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+    ;
+}
+.produto-amostra img {
+    width: 80%;
+    height: 100%;
+    margin-bottom: 1%;
+}
+.produto-amostra img:hover {
+    box-shadow:  0 0 1em rgba(0, 0, 0, 0.103);
+}
+.produto-amostra select {
+    width: 80%;
+    height: 40%;
+    margin-top: 1%;
+}
+.produto-amostra select option {
+    color: black;
+}
+.btn-comprar {
+    width: 80%;
+    height: 50%;
+    margin-top: 1%;
+}
+.btn-comprar input{
+    width: 100%;
+    height: 5vh;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+.btn-comprar input:hover{
+    background-color: rgba(0, 0, 0, 0.67);
+
+}
+
+
+
+/* centro da pagina ---------------------------------------- */
+
+/* rodape -----------------------------------------------*/
+footer{
+    background-color: black;
+    height: 40vh;
+}
+.footer{
+   display: flex;
+   justify-content: space-evenly;
+    width: 100vw;
+   color: white;
+   
+}
+.social-media{
+   width: 20%;
+   margin-top: 2%;
+   
+}
+.social-media li  {
+ margin-bottom: 2%;
+}
+.social-media li  a img {
+    width: 7%;
+    height:7%;
+    margin-right: 2%;
+}
+.social-media strong {
+    font-weight: 400;
+}
+footer a {
+   text-decoration: none;
+   color: white;
+   margin: 1% 0 ;
+}
+footer h2 {
+   margin: 4% 0 ;
+}
+footer ul li {
+   list-style: none;
+}
+.departamentos {
+   margin-top: 2%;
+   width: 20%;
+}
+.sobre {
+   margin-top: 2%;
+   width: 20%;
+}
+.ajuda {
+   margin-top: 2%;
+   width: 20%;
+}
+.ajuda h2 {
+   margin-left :1%;
+}
+.direitos {
+   margin-top: 2%;
+   color: white;
+   display: flex;
+   flex-direction:column;
+   justify-content: center;
+   align-items: center;
+}
+.social-media a img {
+   width: 10%;
+   height: 10%;
+}
+
+/* rodape --------------------------------- */
+
+/* responsividade ------------------------------ /*/
+@media only screen and (max-width: 400px) {
+    
+    *{
+        font-size: 12px;
+    }
+    
+    .a{
+    display: none;
+  }
+  header{
+    
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .menu-mobile  {
+    width: 50vw;
+    display: flex;
+  flex-direction: row;
+  
+    
+  }
+  .menu-mobile ul {
+    display: flex;
+  }
+  .menu-mobile   ul li a  img {
+    width: 20px;
+    height: 20px;
+    margin: 0px 6px;
+}
+
+  .menu {
+    display: none;
+  }
+    
+  
+
+.container-pesquisa input{
+    width: 70vw;
+    height: 5vh;
+    font-size: 0.9rem;
+    margin: 5% 0 0 1%;
+}
+
+
+    
+
+.container-nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu {
+    display: none;
+}
+
+.banner-mobile{
+    display: block;
+}
+
+    .container-pesquisa{
+        width: 40%;
+    }
+   body{
+    overflow: scroll;
+   }
+    .banner {
+    display: none;
+
+   }
+   .banner-mobile img {
+    width: 100%;
+    height: 40vh;
+    
+}
+.produto-amostra img {
+ width: 85%;
+ height: 80%;
+ margin-left: 5%;
+}
+.produto-amostra {
+    width: 100%;
+    height: 100%;
+    margin-left: 1%;
+}
+.produto-amostra h4 {
+    width: 100%;
+    height: 15%;
+}
+.produto-amostra strong {
+    width: 100%;
+    height: 15%;
+}
+.produto-amostra select {
+    width: 95%;
+    height: 15%;
+}
+.btn-comprar{
+    width: 95% ;
+    height: 20%;
+}
+.btn-comprar form input{
+    width: 100%;
+    height: 8vh;
+    margin-bottom: 2%;
+}
+.container-produtos{
+    width: 100vw;
+    height: 80vh; 
+}
+
+
+
+
+.menu-section.on{
+    position:absolute;
+    left: 0;
+    top: 0;
+    
+    width: 100vw;
+    height: 85vh;
+    background-color: black;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+}
+   
+   .menu-section.on .menu  {
+    display: block;
+   }
+   .menu-section.on .menu-mobile {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+   }
+   .menu-section.on .menu nav ul  {
+    display: block;
+    text-align: center;
+    width: 100vw;
+
+   }
+   
+   .menu-section.on .menu nav ul li a  {
+ font-size:  2rem;
+   }
+   
+   
+   
+
+
+   
+    .footer {
+        
+        width: 100vw;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+      .sobre , .ajuda {
+        width: 50%;
+        margin-top: 5%;
+       font-size: 0.rem; 
+    }
+    .social-media,.departamentos{
+        width: 45%;
+        margin-top: 5%;
+       font-size: 0.5rem;
+        margin-left: 1%;
+        ;
+    }
+    .social-media li a img {
+            width: 15%;
+            height: 15%;
+    }
+    .social-media li a {
+        font-size: 0.8rem;
+    }
+    .direitos{
+        margin-top: 2%;
+    }
+    .detalhes{
+        margin-top: 2%;
+        list-style: square;
+    }
+    .lista{
+        margin-left: 1%;
+    }
+
+}
