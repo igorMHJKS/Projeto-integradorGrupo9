@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="./public/logincadastro.css" />
+</head>
+<body>
+    <main>
+        <section id="container-signup">
+            <div class="youcom">
+                <img src="./public/CSS/imagens/img-yc.png">
+            </div> 
+            <h2>crie seu cadastro</h2>
+            <br>
+            <form action="/login" method="GET">
+                <div class="container-cd">
+                    <label for="cpf"></label>
+                    <input
+                    id="cpf" 
+                    type="number" 
+                    neme="CPF" 
+                    placeholder="CPF*" 
+                    required 
+                    />
+                </div>
+
+                <div class="container-cd">
+                    <label for="nome"></label>
+                    <input
+                    id="nome" 
+                    type="text" 
+                    neme="nome" 
+                    placeholder="nome*" 
+                    required 
+                    />
+                </div>
+
+                <div class="container-cd">
+                    <label for="sobrenome"></label>
+                    <input
+                    id="sobrenome" 
+                    type="text" 
+                    neme="sobrenome" 
+                    placeholder="sobrenome*" 
+                    required 
+                    />
+                </div>
+
+                <div class="container-cd">
+                    <label for="senha"></label>
+                    <input 
+                        id="senha"
+                        type="password" 
+                        name="password" 
+                        placeholder="senha*" 
+                        required
+                    />
+                </div>
+
+                <div class="container-cd">
+                    <label for="confirmarSenha"></label>
+                    <input 
+                        id="confirmarSenha"
+                        type="password" 
+                        name="password" 
+                        placeholder="senha*" 
+                        required
+                    />
+                </div>
+
+                <input 
+                    class="finalizar"
+                    type="submit" 
+                    value="finalizar"
+                />
+                
+                <br>
+                já tem uma conta!
+                <a class="link-login" href="login.html">fassa login</a>
+                
+            </form>
+        </section>
+    </main>
+</body>
+</html>

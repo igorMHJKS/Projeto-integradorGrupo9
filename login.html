@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="./public/logincadastro.css" />
+</head>
+<body>
+    <main>
+        <section id="container-login">
+            <div class="youcom">
+                <img src="./public/CSS/imagens/img-yc.png">
+            </div>    
+            <h2>fazer login</h2>
+            <br>
+            <br>
+            <form action="/login" method="GET">
+                <div class="container-input">
+                    <label for="email">E-mail</label>
+                    <input
+                    id="email" 
+                    type="email" 
+                    neme="email" 
+                    placeholder="E-mail" 
+                    required
+                    />
+                </div>
+
+                <div class="container-input">
+                    <label for="senha">Senha</label>
+                    <input 
+                        id="senha"
+                        type="password" 
+                        name="password" 
+                        placeholder="senha" 
+                        required
+                    />
+                </div>
+
+                <a href="/criarSenha.html"
+                    class="criar-senha" 
+                    title="Esqueci minha senha">
+                    Esqueci minha senha
+                </a>
+                
+                <input
+                    class="botao-login"
+                    type="submit"
+                    value="entrar"
+                />
+                
+                <a class="link-cadastro" href="./cadastro.html">crie sua conta!</a>
+           
+            </form>
+        </section>
+    </main>
+</body>
+</html>
